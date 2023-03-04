@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fec24a1f-9da8-42e7-8787-976b598564eb",
+    "fullName": "Steven I. Perez",
+    "email": "StevenIPerez@armyspy.com",
+    "password": "1234567890***"
+  },
+  {
+    "id": "cea42c1b-46bc-4da7-991c-79d0d119591e",
+    "fullName": "Mina H. Weaver",
+    "email": "MinaHWeaver@armyspy.com",
+    "password": "818^!#2"
+  },
+  {
+    "id": "3567f000-59ba-4d72-ab20-f1173d4e5d35",
+    "fullName": "Aleksandar Dimov",
+    "email": "dimov0703@gmail.com",
+    "password": "123123123"
+  },
+  {
+    "id": "f013228b-13d9-4f25-9c17-a117df91f3e4",
+    "fullName": "John Doe",
+    "email": "mail@mail.com",
+    "password": "password123"
+  }
+]
