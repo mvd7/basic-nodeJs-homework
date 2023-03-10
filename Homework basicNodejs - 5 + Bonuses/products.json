@@ -1,0 +1,47 @@
+[
+  {
+    "id": "8b8832c0-cc62-487b-af3a-a70d6c0f6880",
+    "name": "MSI GeForce RTX 3050",
+    "price": 419,
+    "rating": "Perfect",
+    "description": "GeForce RTX 3050 AERO ITX 8G OC",
+    "category": "GPU",
+    "isInStock": true
+  },
+  {
+    "id": "5fd78a9c-b797-4c7c-9c2e-bc3438d317bb",
+    "name": "MSI GeForce RTX 3050",
+    "price": 419,
+    "rating": "Perfect",
+    "description": "GeForce RTX 3050 AERO ITX 8G OC",
+    "category": "GPU",
+    "isInStock": true
+  },
+  {
+    "id": "95bd4037-a132-4316-8a8e-af925d6f6fee",
+    "name": "HP Pavlion CW15",
+    "price": 699,
+    "rating": "Perfect",
+    "description": "RTX 3050 RYZEN 7",
+    "category": "Laptop",
+    "isInStock": true
+  },
+  {
+    "id": "b43662fa-c81c-47b5-9b85-02ed2520bb54",
+    "name": "iPhone 14 Pro Max",
+    "price": 1399,
+    "rating": "Perfect",
+    "description": "1TB STORAGE,6GB Ram,6.7inch Display",
+    "category": "Phone",
+    "isInStock": true
+  },
+  {
+    "id": "8de7ad4e-153c-4a4f-9c28-5f4bf8bfd689",
+    "name": "MSI GeForce RTX 3050",
+    "price": 419,
+    "rating": "Perfect",
+    "description": "GeForce RTX 3050 AERO ITX 8G OC",
+    "category": "GPU",
+    "isInStock": true
+  }
+]

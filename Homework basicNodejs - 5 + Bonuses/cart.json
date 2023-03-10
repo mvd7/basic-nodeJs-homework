@@ -1,0 +1,20 @@
+[
+  {
+    "id": "b43662fa-c81c-47b5-9b85-02ed2520bb54",
+    "name": "iPhone 14 Pro Max",
+    "price": 1399,
+    "rating": "Perfect",
+    "description": "1TB STORAGE,6GB Ram,6.7inch Display",
+    "category": "Phone",
+    "isInStock": true
+  },
+  {
+    "id": "5fd78a9c-b797-4c7c-9c2e-bc3438d317bb",
+    "name": "MSI GeForce RTX 3050",
+    "price": 419,
+    "rating": "Perfect",
+    "description": "GeForce RTX 3050 AERO ITX 8G OC",
+    "category": "GPU",
+    "isInStock": true
+  }
+]
