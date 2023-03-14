@@ -76,15 +76,14 @@ router.delete("/delete_products", (req, res) => {
   const products = JSON.parse(
     fs.readFileSync("./products.json", { encoding: "utf-8" })
   );
-  const allProducts = req.params.product;
 
-  if (allProducts !== -1) {
-    products.splice(allProducts);
-    fs.writeFileSync("./products.json", JSON.stringify(products));
-    res.status(202).send({ message: "All products deleted." });
+  if (products.length != 0) {
+    res.send({ message: "All products deleted." });
+    products.length = 0;
   } else {
-    res.status(404).send({ message: "Products not found." });
+    res.status(404).send({ message: "No products found to delete." });
   }
+  fs.writeFileSync("./products.json", JSON.stringify(products));
 });
 
 // GET PRODUCT BY ID ROUTE*****************************************
@@ -110,19 +109,14 @@ router.get("/product/:id", (req, res) => {
 // SET ITEM OUT OF STOCK*****************************************
 
 router.put("/out_of_stock/:id", (req, res) => {
-  const id = req.params.id;
-  console.log(id);
-
   const products = JSON.parse(
     fs.readFileSync("./products.json", { encoding: "utf-8" })
   );
-
-  const index = products.findIndex((product) => product.id === id);
-  if (index !== -1) {
-    products[index].isAvailable = false;
-
-    fs.writeFileSync("./products.json", JSON.stringify(products));
-
+  const id = req.params.id;
+  const foundProduct = products.findIndex((product) => product.id === id);
+  if (foundProduct !== -1) {
+    products[foundProduct].isInStock = false;
+    fs.writeFileSync("./products.json", JSON.stringify(products, null, 2));
     res.status(200).send({ message: "Product is now out of stock." });
   } else {
     res.status(404).send({ message: "Product not found." });

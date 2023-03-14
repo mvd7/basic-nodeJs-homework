@@ -42,6 +42,6 @@
     "rating": "Perfect",
     "description": "GeForce RTX 3050 AERO ITX 8G OC",
     "category": "GPU",
-    "isInStock": true
+    "isInStock": false
   }
 ]
