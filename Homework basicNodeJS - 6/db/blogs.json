@@ -1,0 +1,34 @@
+[
+  {
+    "id": "firstBlog",
+    "title": "Edited post",
+    "body": "Trying out editing",
+    "author": "Aleksandar Dimov",
+    "date": "16.03.2023",
+    "tags": ["edit", "post"]
+  },
+  {
+    "id": "secondBlog",
+    "title": "Edited post #2",
+    "body": "Edited with Talend",
+    "author": "Aleksandar Dimov",
+    "date": "16.03.2023",
+    "tags": ["edited_post_2", "post2_edit"]
+  },
+  {
+    "id": "008aacc3-8246-4934-b4fb-59ee878dfdd6",
+    "title": "Post from Talend",
+    "body": "Trying out Talend",
+    "author": "Aleksandar Dimov",
+    "time": "3/16/2023, 6:17:20 PM",
+    "tags": ["Talend", "Express"]
+  },
+  {
+    "id": "774ee39d-cdfe-45e4-a32a-2fde243910ab",
+    "title": "Trying out posts :D + Edit",
+    "body": "im just trying out if this is working and edited it",
+    "author": "John Doe",
+    "time": "3/16/2023, 7:43:46 PM",
+    "tags": ["trying", "hello_world", "+edited"]
+  }
+]
