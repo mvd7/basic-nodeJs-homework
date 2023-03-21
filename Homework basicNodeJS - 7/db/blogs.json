@@ -1,0 +1,91 @@
+[
+  {
+    "id": "firstBlog",
+    "title": "Edited post",
+    "body": "Trying out editing",
+    "author": "Aleksandar Dimov",
+    "date": "16.03.2023",
+    "tags": [
+      "edit",
+      "post"
+    ]
+  },
+  {
+    "id": "secondBlog",
+    "title": "Edited post #2",
+    "body": "Edited with Talend",
+    "author": "Aleksandar Dimov",
+    "date": "16.03.2023",
+    "tags": [
+      "edited_post_2",
+      "post2_edit"
+    ]
+  },
+  {
+    "id": "008aacc3-8246-4934-b4fb-59ee878dfdd6",
+    "title": "Post from Talend",
+    "body": "Trying out Talend",
+    "author": "Aleksandar Dimov",
+    "time": "3/16/2023, 6:17:20 PM",
+    "tags": [
+      "Talend",
+      "Express"
+    ]
+  },
+  {
+    "id": "774ee39d-cdfe-45e4-a32a-2fde243910ab",
+    "title": "Trying out posts :D + Edit",
+    "body": "im just trying out if this is working and edited it",
+    "author": "John Doe",
+    "time": "3/16/2023, 7:43:46 PM",
+    "tags": [
+      "trying",
+      "hello_world",
+      "+edited"
+    ]
+  },
+  {
+    "id": "91a54555-6cda-4c6c-a063-0aae4181d2a1",
+    "title": "Im logged in.",
+    "body": "I just logged in and now i can post.",
+    "author": "Aleksandar Dimov",
+    "time": "3/21/2023, 6:20:33 PM",
+    "tags": [
+      "login",
+      "auth"
+    ]
+  },
+  {
+    "id": "c449639a-3fe2-45d3-903d-6ac9533abadc",
+    "title": "Im logged in.",
+    "body": "I just logged in and now i can post.",
+    "author": "Aleksandar Dimov",
+    "time": "3/21/2023, 6:21:15 PM",
+    "tags": [
+      "login",
+      "auth"
+    ]
+  },
+  {
+    "id": "416816aa-7b77-4ab0-833f-a91ee45e6a6b",
+    "title": "Testing login,",
+    "body": "Testing login.",
+    "author": "John Doe",
+    "time": "3/21/2023, 6:24:59 PM",
+    "tags": [
+      "logged",
+      "in"
+    ]
+  },
+  {
+    "id": "73244db0-dba4-46f5-9098-3e1e3cdbf01f",
+    "title": "Final testing :D",
+    "body": "im testing login",
+    "author": "Aleksandar Dimov",
+    "time": "3/21/2023, 6:29:39 PM",
+    "tags": [
+      "login",
+      "123123"
+    ]
+  }
+]
